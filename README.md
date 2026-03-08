@@ -89,7 +89,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/tesa-tour.git
+git clone https://github.com/ibrprofile/tesa-tour.git
 cd tesa-tour
 ```
 
