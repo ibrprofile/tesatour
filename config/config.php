@@ -8,9 +8,9 @@ define('DEBUG_MODE', true);
 
 // Настройки базы данных
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'tesatour');
-define('DB_USER', 'tesatour');
-define('DB_PASS', 'tesatour#');
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
 define('DB_CHARSET', 'utf8mb4');
 
 // Настройки приложения
@@ -19,13 +19,13 @@ define('APP_URL', 'https://tour.tesapp.ru');
 define('APP_VERSION', '1.0.0');
 
 // Yandex Maps API
-define('YANDEX_MAPS_API_KEY', '84c7eaf1-e983-4a59-8257-90019c39df52');
+define('YANDEX_MAPS_API_KEY', '');
 define('MAP_DEFAULT_CENTER', json_encode([55.7558, 37.6173]));
 define('MAP_DEFAULT_ZOOM', 12);
 
 // Telegram Bot
-define('TELEGRAM_BOT_TOKEN', '7622370308:AAFIWA2G57V7zJ1ZvF0OSf9lh15G_3CBdFQ');
-define('TELEGRAM_BOT_USERNAME', 'tesatour_bot');
+define('TELEGRAM_BOT_TOKEN', '');
+define('TELEGRAM_BOT_USERNAME', '');
 
 // Пути к директориям
 define('ROOT_PATH', dirname(__DIR__));
