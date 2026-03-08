@@ -10,4 +10,4 @@ Disallow: /models/
 Disallow: /controllers/
 Disallow: /views/
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://qqqqq.com/sitemap.xml
