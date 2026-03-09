@@ -6,6 +6,13 @@
 // Загрузка конфигурации
 require_once __DIR__ . '/config/config.php';
 
+// === ОБРАБОТКА API ЗАПРОСОВ ===
+$path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+if (strpos($path, '/api/v1') === 0) {
+    require_once __DIR__ . '/api.php';
+    exit;
+}
+
 // Запуск сессии
 Session::start();
 
